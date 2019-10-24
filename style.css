@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   font-family:'Open Sans Condensed', sans-serif;
+  --border: 0.1px solid gray
 }
 
 @keyframes spin {
@@ -25,7 +26,7 @@ ol {
   font-size:16px;
   text-decoration: none;
   font-size: 8%;
-  border: 0.1px solid gray
+  border: var(--border);
 }
 
 li a {
@@ -122,37 +123,34 @@ li a:hover {
   display: flex;
 }
 
-.border {
-  border: 0.1px solid grey;
+#border {
+  border: var(--border);
 }
 
 
-.slider-holder{
+.slide-holder{
   width: 800px;
   height: 400px;
-  background-color: yellow;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 30px;
   text-align: center;
   overflow: hidden;
 }
 
-        .image-holder
-        {
-            width: 2400px;
-            background-color: red;
-            height: 400px;
-            clear: both;
-            position: relative;
+.image-holder{
+ width: 2400px;
+ background-color: red;
+ height: 400px;
+ clear: both;
+ position: relative;
+ -webkit-transition: left 2s;
+ -moz-transition: left 2s;
+ -o-transition: left 2s;
+ transition: left 2s;
+}
 
-            -webkit-transition: left 2s;
-            -moz-transition: left 2s;
-            -o-transition: left 2s;
-            transition: left 2s;
-        }
-
-        .slider-image
+.slider-image
         {
             float: left;
             margin: 0px;
