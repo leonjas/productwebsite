@@ -204,12 +204,17 @@ body{
 .bagimg {
 Width:50%;
 }
-
 .bagimg img{
  padding: 20px;
  width:80%;
+ display:flex;
+ flex-direction: column;
   }
-
+.bagggg{
+  display:flex;
+  width: 45%;
+  padding:10px;
+}
 .bagtext{
   Width:50%;
   font-size: 50px;
