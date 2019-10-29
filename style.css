@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   font-family:'Open Sans Condensed', sans-serif;
+  --border: 0.1px solid gray
 }
 
 @keyframes spin {
@@ -25,7 +26,7 @@ ol {
   font-size:16px;
   text-decoration: none;
   font-size: 8%;
-  border: 0.1px solid gray
+  border: var(--border);
 }
 
 li a {
@@ -129,7 +130,7 @@ body{
 .Eco{
   font-size:25px;
   display:flex;
-  
+
 }
 .bagimg {
 Width:50%;
@@ -145,7 +146,7 @@ Width:50%;
   font-size: 50px;
   text-align: center;
   padding:50px;
-  
+
   }
 .description{
   font-size:25px;
