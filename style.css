@@ -50,8 +50,7 @@ li a:hover {
  justify-content: right;
 }
 
-.dropbtn:hover .dropcontent {
-}
+
 
 .dropcontent {
   display: none;
@@ -120,4 +119,34 @@ li a:hover {
 
 .image{
   display: flex;
+}
+
+
+/* eco-bag code*/
+body{
+  background-color:white;
+}
+.Eco{
+  font-size:25px;
+  display:flex;
+  
+}
+.bagimg {
+Width:50%;
+}
+
+.bagimg img{
+ padding: 20px;
+ width:80%;
+  }
+
+.bagtext{
+  Width:50%;
+  font-size: 50px;
+  text-align: center;
+  padding:50px;
+  
+  }
+.description{
+  font-size:25px;
 }
