@@ -196,5 +196,6 @@ input[type=submit]:hover {
 }
 
 .contactbody
-  {font-family: Arial, Helvetica, sans-serif;}
-  * {box-sizing: border-box;}
+  {font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 50px}
