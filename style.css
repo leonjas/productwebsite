@@ -197,8 +197,14 @@ input[type=submit]:hover {
 .contactbody
   {font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-  font-size: 50px}
+  font-size: 60px}
 
 .contacthead{
-font-size: 100px;
+font-size: 80px;
+text-align:center;
   }
+  
+.contactfooter{
+  font-size:30px;
+  text-align:center;
+}
