@@ -126,8 +126,25 @@ li a:hover {
   border: var(--border);
 }
 
+.slideshow-container {
+  height: 230px;
+  overflow: hidden;
+  background: red;
+}
+
 .slides {
   display:none;
+}
+
+.footer{
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 23px;
+  font-family:'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
 
 /* eco-bag code*/
@@ -137,8 +154,8 @@ body{
 .Eco{
   font-size:25px;
   display:flex;
-
 }
+
 .bagimg {
 Width:50%;
 }
@@ -147,7 +164,7 @@ Width:50%;
  width:80%;
  display:flex;
  flex-direction: column;
-  }
+}
 .bagggg{
   display:flex;
   width: 45%;
@@ -160,7 +177,7 @@ Width:50%;
   padding:50px 50px 50px 0;
   position: relative;
   right: 60px;
-  }
+}
 .description{
   font-size:25px;
   text-align: left;

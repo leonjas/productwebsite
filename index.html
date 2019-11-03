@@ -7,6 +7,7 @@
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <!--navbor and top homepage-->
  <ol>
   <div class="leftitem">
@@ -36,27 +37,34 @@
    <div class="recycle">&#9851;</div>
   </div>
  </div>
-<!--slideshow homepage-->
- <div id="border"></div>
- <img class="slides" src="https://www.thoughtco.com/thmb/sl2PGTyUVRoGl7O99mjEgcCASAM=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-485669117-1--56a1343f5f9b58b7d0bd0106.jpg" style="width: 50%; max-height: 550px; float: right;">
- <img class="slides" src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.15752-0/p280x280/75635919_424995478436915_2230751471752708096_n.png?_nc_cat=108&_nc_oc=AQkuOosRYYkG0beAU0k_xDzAfJwR7B8DJZuz4UNyyW7M5QgnUOgsG1tPYttrtJeEiW8&_nc_ht=scontent.ftpe8-1.fna&oh=4a2f2288c834fcb90630312a8b99d3df&oe=5E6353B9" style="width: 50%; max-height: 550px; float: right;">
- <img class="slides" src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.15752-0/p280x280/72756246_752960825163558_5062416460748423168_n.png?_nc_cat=109&_nc_oc=AQmMnXWsz6KRLsyfG5eR9N8gVMMs19on5eoJogk5kIqn5BWdwECQD0ZQYY9T-nlpdWo&_nc_ht=scontent.ftpe8-1.fna&oh=f5f839f6b111a20582346f941c723256&oe=5E179FCA" style="width: 50%; max-height: 500px; float: right;">
 
- <script>
-  var myIndex = 0;
-  carousel();
-  function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
- </script>
+ <div class="slideshow-container">
+   <!--slideshow homepage-->
+    <div id="border"></div>
+    <img class="slides" src="https://www.thoughtco.com/thmb/sl2PGTyUVRoGl7O99mjEgcCASAM=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-485669117-1--56a1343f5f9b58b7d0bd0106.jpg" style="width: 50%; max-height: 1000px; float: right;">
+    <img class="slides" src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.15752-0/p280x280/75635919_424995478436915_2230751471752708096_n.png?_nc_cat=108&_nc_oc=AQkuOosRYYkG0beAU0k_xDzAfJwR7B8DJZuz4UNyyW7M5QgnUOgsG1tPYttrtJeEiW8&_nc_ht=scontent.ftpe8-1.fna&oh=4a2f2288c834fcb90630312a8b99d3df&oe=5E6353B9" style="width: 50%; max-height: 1000px; float: right;">
+    <img class="slides" src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.15752-0/p280x280/72756246_752960825163558_5062416460748423168_n.png?_nc_cat=109&_nc_oc=AQmMnXWsz6KRLsyfG5eR9N8gVMMs19on5eoJogk5kIqn5BWdwECQD0ZQYY9T-nlpdWo&_nc_ht=scontent.ftpe8-1.fna&oh=f5f839f6b111a20582346f941c723256&oe=5E179FCA" style="width: 50%; max-height: 230px; float: right;">
 
+    <script>
+     var myIndex = 0;
+     carousel();
+     function carousel() {
+     var i;
+     var x = document.getElementsByClassName("slides");
+     for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+     }
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}
+     x[myIndex-1].style.display = "block";
+     setTimeout(carousel, 2000); // Change image every 2 seconds
+     }
+    </script>
+ </div>
+
+
+ <div class="footer">
+  <p>@2019 Ecobility.Inc All right reserve</p>
+ </div>
 </body>
 </html>
