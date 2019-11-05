@@ -258,7 +258,8 @@ text-align:center;
 }
 
  .membername{
-   font-size: 30px
+   font-size: 200%;
+   font-weight: bold;
  }
 
 /*contact page infos*/
@@ -308,7 +309,7 @@ section{
   font-size:20px;
 }
 .paps{
-  font-size: 25px;
+  font-size: 20px;
 }
 /*Userreview*/
 
