@@ -403,15 +403,19 @@ section{
 .checked {
   color: orange;
 }
-
+.userreviewww{
+  padding:5px;
+}
 .userreview1{
-  padding:25px;
+  padding:10px;
   font-size:25px;
-  border:black 2px solid;
+  border:black 1px solid;
 }
 
-.user1{
-  font-size:20px;
+.userreview2{
+  padding:10px;
+  font-size:25px;
+  border:black 1px solid;
 }
 /* Three column layout */
 .side {
