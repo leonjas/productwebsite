@@ -118,10 +118,32 @@ li a:hover {
   display: flex;
 }
 
-.emoji{
- font-size: 90px;
- text-align: center;
- margin-top: 100px;
+.texthover {
+  -webkit-transform: translate(-50%,-50%);
+  position: absolute;
+  line-height: 40px;
+  left: 450px;
+  top: 1355px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.effect-underline a:after {
+  border-bottom: 1px solid black;
+  content: '';
+  display: inline-block;
+  height: 0.5em;
+  width: 100%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.effect-underline:hover a:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 .slideshow-container {
@@ -176,6 +198,7 @@ li a:hover {
 
 .hvrbox .hvrbox-text {
 	text-align: center;
+  line-height: 60px;
 	font-size: 40px;
 	display: inline-block;
 	position: absolute;
