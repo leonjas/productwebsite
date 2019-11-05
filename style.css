@@ -45,6 +45,7 @@ li a:hover {
  display: flex;
  flex-grow: 1;
  justify-content: left;
+ align-items:center;
 }
 
 .rightitem{
@@ -75,6 +76,7 @@ li a:hover {
 .dropdown:hover .dropcontent {
   display: block;
 }
+
 
 .recycle{
   color: lightgreen;
