@@ -123,10 +123,15 @@ li a:hover {
   border: var(--border);
 }
 
+.emoji{
+ overflow: hidden;
+ position: left;
+ display: flex;
+}
+
 .slideshow-container {
   overflow: hidden;
   max-height: 2000px;
-  background-color: red;
 }
 
 .slides {
@@ -373,7 +378,7 @@ section{
   font-family: Arial;
   margin: 0 auto; /* Center website */
  /* Max width */
-  
+
 }
 
 .heading {
