@@ -323,6 +323,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  font-size: 50px}
 }
 
 .contactbody
@@ -331,14 +332,9 @@ input[type=submit]:hover {
   font-size: 60px}
 
 .contacthead{
-font-size: 80px;
+font-size: 65px;
 text-align:center;
   }
-
-.contactfooter{
-  font-size:30px;
-  text-align:center;
-}
 
 .heading{
   color:black;
