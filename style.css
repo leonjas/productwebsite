@@ -17,7 +17,7 @@
 }
 
 body {
-  font-size: 300px;
+  font-size: 350px;
 }
 
 ol {
@@ -51,8 +51,6 @@ li a:hover {
  justify-content: right;
 }
 
-
-
 .dropcontent {
   display: none;
   position: absolute;
@@ -80,7 +78,7 @@ li a:hover {
 .recycle{
   color: lightgreen;
   position: absolute;
-  top: 45%; left: 75%;
+  top: 40%; left: 75%;
   margin-top: -190px; margin-left: -95px;
   animation: spin 6s linear infinite;
   -webkit-animation: spin 6s linear infinite;
@@ -90,8 +88,8 @@ li a:hover {
   background-image: url("http://www.globalstewards.org/images/fbshare/quotes.jpg");
   background-size: 150%;
   background-position-x: 35%;
-  background-position-y: 28%;
-  height: 715px;
+  background-position-y: -90%;
+  height: 718px;
   width: 30%;
   flex-grow: 2;
   flex-direction: column;
@@ -99,15 +97,14 @@ li a:hover {
   background-repeat:no-repeat;
 }
 .homepagetext{
-  font-size: 45px;
+  font-size: 40px;
   color: lightgreen;
   text-align: center;
   position: absolute;
   top: 35%;
-  left: 40%;
-  padding: 10px;
+  left: 43%;
+  padding: 20px;
   background-color: white;
-
 }
 
 .quote{
@@ -127,9 +124,9 @@ li a:hover {
 }
 
 .slideshow-container {
-  height: 230px;
   overflow: hidden;
-  background: red;
+  max-height: 2000px;
+  background-color: red;
 }
 
 .slides {
@@ -138,11 +135,11 @@ li a:hover {
 
 .footer{
   position: relative;
-  height: 40px;
+  height: 50px;
   width: 100%;
   background-color: black;
   color: white;
-  font-size: 23px;
+  font-size: 30px;
   font-family:'Open Sans Condensed', sans-serif;
   text-align: center;
 }
@@ -159,6 +156,7 @@ body{
 .bagimg {
 Width:50%;
 }
+
 .bagimg img{
  padding: 20px;
  width:80%;
@@ -320,7 +318,7 @@ section{
   font-size:50px;
 }
 
-body {
+.userbody {
   font-family: Arial;
   margin: 0 auto; /* Center website */
   max-width: 800px; /* Max width */
@@ -390,4 +388,3 @@ body {
     display: none;
   }
 }
-
