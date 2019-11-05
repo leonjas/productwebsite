@@ -3,7 +3,6 @@
   padding: 0;
   list-style: none;
   font-family:'Open Sans Condensed', sans-serif;
-  --border: 0.1px solid gray
 }
 
 /* homepage code*/
@@ -21,12 +20,12 @@ body {
   font-size: 360px;
 }
 
-ol {
+.navborder{
   overflow: hidden;
   display:flex;
   text-decoration: none;
   font-size: 8%;
-  border: var(--border);
+  border: 0.1px solid gray;
 }
 
 li a {
@@ -44,7 +43,6 @@ li a:hover {
  display: flex;
  flex-grow: 1;
  justify-content: left;
- align-items: center;
 }
 
 .rightitem{
@@ -120,14 +118,37 @@ li a:hover {
   display: flex;
 }
 
-#border {
-  border: var(--border);
+.texthover {
+  -webkit-transform: translate(-50%,-50%);
+  position: absolute;
+  line-height: 40px;
+  left: 450px;
+  top: 1355px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.effect-underline a:after {
+  border-bottom: 1px solid black;
+  content: '';
+  display: inline-block;
+  height: 0.5em;
+  width: 100%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.effect-underline:hover a:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 .slideshow-container {
   overflow: hidden;
   max-height: 2000px;
-  background-color: red;
 }
 
 .slides {
@@ -141,14 +162,17 @@ li a:hover {
 	max-width: 500%;
 	height: 580px;
 }
+
 .hvrbox img {
 	max-width: 500%;
 }
+
 .hvrbox .hvrbox-image {
 	display: block;
   width: 100%;
   height: 580px;
 }
+
 .hvrbox .hvrbox-textimage {
 	opacity: 0;
   position: absolute;
@@ -166,12 +190,15 @@ li a:hover {
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
+
 .hvrbox:hover .hvrbox-textimage,
 .hvrbox.active .hvrbox-textimage {
 	opacity: 1;
 }
+
 .hvrbox .hvrbox-text {
 	text-align: center;
+  line-height: 60px;
 	font-size: 40px;
 	display: inline-block;
 	position: absolute;
@@ -198,6 +225,7 @@ li a:hover {
 body{
   background-color:white;
 }
+
 .Eco{
   font-size:25px;
   display:flex;
@@ -230,7 +258,12 @@ Width:50%;
   font-size:25px;
   text-align: left;
   padding: 10px;
-
+}
+#abcd{
+  margin-top: 50px;
+}
+#aabbcc{
+  margin-top:50px;
 }
 .hii{
   text-align: left;
@@ -245,6 +278,7 @@ Width:50%;
   text-align:left;
   padding:20px 0 0 10px;
 }
+
 input[type=submit] {
   background-color:#21d6d9;
   color: white;
@@ -374,7 +408,7 @@ section{
   font-family: Arial;
   margin: 0 auto; /* Center website */
  /* Max width */
-  
+
 }
 
 .heading {
@@ -453,15 +487,3 @@ section{
     display: none;
   }
 }
-
-.marginforimg img{
-  margin: 13px;
-}
-
-.productbox{
-  display:flex;
-  margin:5px;
-  padding: 4px;
-}
-
-  
