@@ -366,17 +366,18 @@ section{
 .hiiii{
   box-sizing: border-box;
   font-size:50px;
+  padding:40px;
 }
 
 .userbody {
   font-family: Arial;
   margin: 0 auto; /* Center website */
-  max-width: 800px; /* Max width */
-  padding: 20px;
+ /* Max width */
+  
 }
 
 .heading {
-  font-size: 25px;
+  font-size: 50px;
   margin-right: 25px;
 }
 
@@ -387,7 +388,20 @@ section{
 .checked {
   color: orange;
 }
+.userreviewww{
+  padding:5px;
+}
+.userreview1{
+  padding:10px;
+  font-size:25px;
+  border:black 1px solid;
+}
 
+.userreview2{
+  padding:10px;
+  font-size:25px;
+  border:black 1px solid;
+}
 /* Three column layout */
 .side {
   float: left;
