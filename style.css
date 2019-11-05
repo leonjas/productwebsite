@@ -6,6 +6,7 @@
   --border: 0.1px solid gray
 }
 
+/* homepage code*/
 @keyframes spin {
   0%   { opacity: 0.2;   text-shadow: 0px 0px 0px white;
 }
@@ -138,15 +139,17 @@ li a:hover {
 	position: relative;
 	overflow: hidden;
 	max-width: 500%;
-	height: 500px;
+	height: 580px;
 }
 .hvrbox img {
 	max-width: 500%;
 }
-.hvrbox .hvrbox-layer_bottom {
+.hvrbox .hvrbox-image {
 	display: block;
+  width: 100%;
+  height: 580px;
 }
-.hvrbox .hvrbox-layer_top {
+.hvrbox .hvrbox-textimage {
 	opacity: 0;
   position: absolute;
 	top: 0;
@@ -163,13 +166,13 @@ li a:hover {
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
-.hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
+.hvrbox:hover .hvrbox-textimage,
+.hvrbox.active .hvrbox-textimage {
 	opacity: 1;
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 40px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -178,24 +181,6 @@ li a:hover {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-}
-.hvrbox .hvrbox-text_mobile {
-	font-size: 15px;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-	border-top: 1px solid rgba(179, 179, 179, 0.7);
-	margin-top: 5px;
-	padding-top: 2px;
-	display: none;
-}
-.hvrbox.active .hvrbox-text_mobile {
-	display: block;
-}
-.hvrbox_background {
-    width: 400px;
-    height: 250px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 .footer{
@@ -382,17 +367,18 @@ section{
 .hiiii{
   box-sizing: border-box;
   font-size:50px;
+  padding:40px;
 }
 
 .userbody {
   font-family: Arial;
   margin: 0 auto; /* Center website */
-  max-width: 800px; /* Max width */
-  padding: 20px;
+ /* Max width */
+  
 }
 
 .heading {
-  font-size: 25px;
+  font-size: 50px;
   margin-right: 25px;
 }
 
@@ -403,7 +389,20 @@ section{
 .checked {
   color: orange;
 }
+.userreviewww{
+  padding:5px;
+}
+.userreview1{
+  padding:10px;
+  font-size:25px;
+  border:black 1px solid;
+}
 
+.userreview2{
+  padding:10px;
+  font-size:25px;
+  border:black 1px solid;
+}
 /* Three column layout */
 .side {
   float: left;
