@@ -316,17 +316,18 @@ section{
 .hiiii{
   box-sizing: border-box;
   font-size:50px;
+  padding:40px;
 }
 
 .userbody {
   font-family: Arial;
   margin: 0 auto; /* Center website */
-  max-width: 800px; /* Max width */
-  padding: 20px;
+ /* Max width */
+  
 }
 
 .heading {
-  font-size: 25px;
+  font-size: 50px;
   margin-right: 25px;
 }
 
@@ -338,6 +339,15 @@ section{
   color: orange;
 }
 
+.userreview1{
+  padding:25px;
+  font-size:25px;
+  border:black 2px solid;
+}
+
+.user1{
+  font-size:20px;
+}
 /* Three column layout */
 .side {
   float: left;
