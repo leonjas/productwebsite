@@ -20,17 +20,12 @@ body {
   font-size: 360px;
 }
 
-.grey-line {
-  --border: 0.1px solid gray
-}
-
-ol {
+.navborder{
   overflow: hidden;
   display:flex;
   text-decoration: none;
   font-size: 8%;
-  border: var(--border);
-
+  border: 0.1px solid gray;
 }
 
 li a {
@@ -123,12 +118,10 @@ li a:hover {
   display: flex;
 }
 
-#border {
-  border: var(--border);
-}
-
 .emoji{
- font-size: 5em;
+ font-size: 90px;
+ text-align: center;
+ margin-top: 100px;
 }
 
 .slideshow-container {
@@ -147,14 +140,17 @@ li a:hover {
 	max-width: 500%;
 	height: 580px;
 }
+
 .hvrbox img {
 	max-width: 500%;
 }
+
 .hvrbox .hvrbox-image {
 	display: block;
   width: 100%;
   height: 580px;
 }
+
 .hvrbox .hvrbox-textimage {
 	opacity: 0;
   position: absolute;
@@ -172,10 +168,12 @@ li a:hover {
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
+
 .hvrbox:hover .hvrbox-textimage,
 .hvrbox.active .hvrbox-textimage {
 	opacity: 1;
 }
+
 .hvrbox .hvrbox-text {
 	text-align: center;
 	font-size: 40px;
@@ -204,6 +202,7 @@ li a:hover {
 body{
   background-color:white;
 }
+
 .Eco{
   font-size:25px;
   display:flex;
@@ -251,6 +250,7 @@ Width:50%;
   text-align:left;
   padding:20px 0 0 10px;
 }
+
 input[type=submit] {
   background-color:#21d6d9;
   color: white;
